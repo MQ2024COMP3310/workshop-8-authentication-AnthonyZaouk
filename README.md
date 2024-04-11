@@ -11,7 +11,7 @@ If you have a Windows 10 machine, you can follow instructions on installing Pyth
 
 Pip is the package manager for Python.  You can install the remaining packages required for this task using pip. You will need to run the following:
 
-- pip install flask flask-sqlalchemy flask-login
+- pip3 install flask flask-sqlalchemy flask-login
 
 (NOTE: If you are using a Mac you may need to use the command pip3 instead of pip to ensure you are installing packages for python3)
 
@@ -49,7 +49,7 @@ You should see that there are no users in the database.
 
 You can run the website by typing:
 
-- python run.py
+- python3 run.py
 
 (If you are using a Mac you may need to type python3 run.py).
 
